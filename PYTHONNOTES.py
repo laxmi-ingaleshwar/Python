@@ -41,3 +41,7 @@ Which was developed by GUIDO VAN ROSSUM in 1991.
 8. Huge library functions
 9. Huge community support
 10. Multi purpose.
+
+#KEYWORDS
+Keywords are Universal Standard words, which are pre-defined by the developer.
+We can access their functionalities but we cannot modify their Original Task.
