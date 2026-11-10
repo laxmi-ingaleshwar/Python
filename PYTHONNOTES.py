@@ -2,9 +2,9 @@
 python is a programming language, Which is used to interact with the machines/ computer.
 
 #Types.
-1.Low level Language
-2.Middle level Language
-3.High level Language
+1.Low level Language.
+2.Middle level Language.
+3.High level Language.
 
 #1.Low level Language-
 which consists of binary values such as 0s & 1s, Machines can easily understnad.
@@ -45,3 +45,68 @@ Which was developed by GUIDO VAN ROSSUM in 1991.
 #KEYWORDS
 Keywords are Universal Standard words, which are pre-defined by the developer.
 We can access their functionalities but we cannot modify their Original Task.
+
+These are 35 keywords in python.
+syntax
+import keyword
+keyword.kwlist
+
+True=1,False=0,None=absence of value, considered as Special Keywords.
+As they contain some internal values & we can assign these keywords as value to variable.
+
+#VARIABLE
+Variable is like container used to store value.
+
+#IDENTIFIERS
+identifiers are the meaningful names given to the user-defined entities such as
+Variables,functions,classes & objects.
+
+#RULES
+1.should not be a keyword
+2.should not contain special characters as except underscore
+3.it should not start with numbers
+4.it can be alphabet,group of alphabets,alphanumeric
+
+#DATATYPES
+datatypes are used to specify the size & type of the value.
+TYPES
+#I.Single value Datatypes
+1.Integer(int)
+2.Float
+3.Complex
+4.Boolean(bool)
+
+#II.Multi value Datatypes
+1.String
+2.List[]
+3.Tuple()
+4.Set{}
+5.Dictionary{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
