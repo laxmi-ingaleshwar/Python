@@ -69,19 +69,43 @@ Variables,functions,classes & objects.
 
 #DATATYPES
 datatypes are used to specify the size & type of the value.
+
 TYPES
 #I.Single value Datatypes
-1.Integer(int)
-2.Float
-3.Complex
-4.Boolean(bool)
+#1.Integer(int)
+* It is a whole number without fractional / decimal point
+* It can be both +ve & -ve
+* Default value of Integer is 0, which can be access using int().
+
+
+#2.Float
+* The real Numbers with decimal point considered value
+* The float is 0.0 which can be accessed using float().
+* It is mandatory to mention atleast one digit along with the decimal point.
+* After decimal point it takes upto 16 digits, but not more than that.
+
+
+
+#3.Complex
+* It is a combination of real & Imaginary part.
+* a +- bj
+* Apart from j we cannot use any other character as imaginary value.
+
+
+
+#4.Boolean(bool)
+* Boolean is a smallest datatype which contains only two values such as true/false.
+* False is a default value & True is the non-default value.
+* These values can be used as result and while checking some conditions.
+
+
 
 #II.Multi value Datatypes
-1.String
-2.List[]
-3.Tuple()
-4.Set{}
-5.Dictionary{}
+#1.String
+#2.List[]
+#3.Tuple()
+#4.Set{}
+#5.Dictionary{}
 
 
 
