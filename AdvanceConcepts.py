@@ -497,15 +497,56 @@ assert n>0, 'Number is Negative'
 print('number is positive', 'and square of it', n**2)
 '''
     
-class withdrawal(Exception):
+class BalanceError(Exception):
     pass
-n=int(input('enter amount:'))
-bal=400
-if bal>n:
-    print(n,'balance')
-else:
-    raise withdrawal('insufficient balance')
-    
+
+class Bank:
+    def __init__(self,name,balance):
+        self.name = name
+        self.balance = balance
+
+    def withdraw(self):
+        amt = int (input('enter amount to withdraw:'))
+
+        if amt > self.balance:
+            raise BalanceError('Insufficient balance')
+        else:
+            self.balance = self.balance - amt
+            print (f"withdrawan Rs.{amt} successfully")
+    def checkbal(self):
+        print("balance:", self.balance)
+
+a = Bank("Laxmi",100)
+a.checkbal()
+a.withdraw()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
