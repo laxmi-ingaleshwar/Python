@@ -1,3 +1,4 @@
+
 #lambda()
 '''
 even_odd=lambda num:num**2 if num%2==0 else num**3
@@ -381,6 +382,131 @@ the func called for 3 times
 its raining ❤️
 the func called for 4 times
 '''
+
+
+#-------------EXCEPTION HANDLING-------------
+'''
+try
+except
+else
+finally
+'''
+#-specific except block--- used when we know the type of error
+'''
+try:
+    a=int(input('enter:'))
+    b=int(input('enter:'))
+    print(a/b)
+except ValueError as e:
+    print(e)
+except NameError as e:
+    print(e)
+except ZeroDivisionError as e:
+    print(e)
+else:
+    print('no errors found')
+finally:
+    print('execution completed')
+'''    
+
+#--Generic except block
+
+'''
+try:
+    
+    a=int(input('enter:'))
+    b=int(input('enter:'))
+    #print(a+b)
+    
+    for i in range(1,100):
+        print(i)
+except KeyboardInterrupt:
+    print('user wanted to stop')
+except Exception as e:
+    print(e)
+else:
+    print('no errors found')
+finally:
+    print('execution completed')
+'''
+    
+#--Bare/ default except block
+'''
+try:
+    a=int(input('enter:'))
+    b=int(input('enter:'))
+    print(a+b)
+    for i in range(1,200):
+        print(i)
+except:
+    print('error handled')
+else:
+    print('no errors found')
+finally:
+    print('execution completed')
+    
+'''
+
+#--------Creating our own errors
+#1.Built-in } raise
+#2.Custom/user defined } raise
+#we can create our own error & raise
+#3.Assertion } assert
+#until we create it it will not 
+
+'''
+#1
+n=int(input('enter a number:'))
+if n%2==0:
+    print(n,'is even')
+else:
+    raise TypeError('it is odd number')
+'''
+
+#2
+'''
+class OddNumber (Exception):
+    pass
+n=int(input('enter a number:'))
+if n%2==0:
+    print(n,'is even')
+else:
+    raise OddNumber('it is odd number')
+'''
+
+#ex- create a NotPalindrome error& raise it if the str is not palindrome. 
+'''
+class NotPalindrome(Exception):
+    pass
+s=input('enter a word:')
+if s==s[::-1]:
+    print(s,'it is palindrome')
+else:
+    raise NotPalindrome(s,'it is not palindrome')
+'''
+
+#3 assertionerror
+'''
+assert condition,'msg'
+statement block
+'''
+
+'''
+n=int(input('enter a number:'))
+assert n>0, 'Number is Negative'
+print('number is positive', 'and square of it', n**2)
+'''
+    
+class withdrawal(Exception):
+    pass
+n=int(input('enter amount:'))
+bal=400
+if bal>n:
+    print(n,'balance')
+else:
+    raise withdrawal('insufficient balance')
+    
+
 
 
 
