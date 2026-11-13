@@ -496,7 +496,10 @@ n=int(input('enter a number:'))
 assert n>0, 'Number is Negative'
 print('number is positive', 'and square of it', n**2)
 '''
-    
+
+
+#
+'''
 class BalanceError(Exception):
     pass
 
@@ -516,13 +519,16 @@ class Bank:
     def checkbal(self):
         print("balance:", self.balance)
 
-a = Bank("Laxmi",100)
+a = Bank("Laxmi",1000)
 a.checkbal()
 a.withdraw()
+'''
 
 
+#-----------------FILE HANDLING--------
 
-
+f= open ('file1.txt','w')
+f.write('hello everyone/n')
 
 
 

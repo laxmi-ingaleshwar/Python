@@ -102,6 +102,11 @@ TYPES
 
 #II.Multi value Datatypes
 #1.String
+* String is a collection of characters, which is enclosed between
+''(single quote), ""(double quote), ''' '''(triple quote).
+* A string can contain alphabets,digits & special characters.
+* Default value of string ''.
+
 #2.List[]
 #3.Tuple()
 #4.Set{}
