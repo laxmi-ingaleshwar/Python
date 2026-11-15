@@ -108,7 +108,26 @@ TYPES
 * Default value of string ''.
 
 #2.List[]
+*List is a collection of Hmogeneous/ Heterogeneous type of values,
+*which is enclosed between [].
+* The default value of list is [].
+* List is a order collection which supports indexing.
+* List allows duplicate values.
+* List is a mutable datatype.
+* Syntax  Var=[V1,V2,----,Vn]
+#functions to add the value to the list.
+1.append()
+    * add one element to the end of the array.
+    * list.append(val)
+2.insert()
+    * add an element at the specific index at a list.
+    * list.insert(index,value)
+3.extend()
+    * add multiple elements to the end of the list.
+    * list.extend([V1,V2,-----,Vn])
+
 #3.Tuple()
+
 #4.Set{}
 #5.Dictionary{}
 
