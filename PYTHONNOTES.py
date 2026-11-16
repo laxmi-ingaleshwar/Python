@@ -108,8 +108,8 @@ TYPES
 * Default value of string ''.
 
 #2.List[]
-*List is a collection of Hmogeneous/ Heterogeneous type of values,
-*which is enclosed between [].
+* List is a collection of Hmogeneous/ Heterogeneous type of values,
+* which is enclosed between [].
 * The default value of list is [].
 * List is a order collection which supports indexing.
 * List allows duplicate values.
@@ -127,8 +127,44 @@ TYPES
     * list.extend([V1,V2,-----,Vn])
 
 #3.Tuple()
+* Tuple is an ordered collection which supports indexing.
+* It is a immutable datatype.
+* The default value of tuple is ().
+* which can be accessed using tuple().
+* Storing a single value inside is not possible directly,
+* It should be stored with (,)comma.
+
 
 #4.Set{}
+* Set is a collection of homogeneous & Heterogeneous type of value,
+* Which are enclosed between {}.
+* Set is a mutable value.
+* It is an unordered collection that does not supports indexing.
+* Set does not allow duplicate values.
+* We cannot store mutable values inside set.
+* The default value of set is Set().
+
+#FUNCTIONS TO ADD THE VALUES TO THE SET.
+1.add()
+* Used to add an element randomly to the set.
+* Set.add(val)
+
+2.Update()
+* Add multiple values at a time to the random positions of set.
+* Set.update(collection)
+* Set.update(collection1,collection2,....)
+
+
+#FUNCTIONS TO REMOVE THE VALUES TO THE SET.
+1.pop()
+* Removes first element from the set.
+* Set.pop()
+
+2.remove()
+* Remove the specific value.
+* Set.remove(val)
+
+
 #5.Dictionary{}
 
 
