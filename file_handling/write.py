@@ -28,15 +28,22 @@ f.write('ash loves anshh\n')
 f.close()
 '''
 
-#-------w+(write&read)
+
+#-----APPEND------------
 '''
-f=open('file1.txt','w+')
+f=open('file1.txt','a')
+f.write('anita loves anil\n')
+f.close()
+'''
+
+#-------w+(write&read)
+
+f=open('file3.txt','w+')
 f.writelines(['today is monday\n','she loves him\n','he loves her\n'])
-f.seek(9)
+f.seek(10)
 print(f.read())
 print(f.tell())
 f.close()
-'''
 
 #-------r+(read&write)
 '''
@@ -47,7 +54,7 @@ print(f.read())
 f.close()
 '''
 
-
+#-------wb(write binary)
 '''
 import pickle
 data=[1,2,3,4,5]
@@ -59,11 +66,19 @@ f.close()
 '''
 
 
+#--------rb(read binary)
 '''
 f=open('file1.txt','rb')
 c=f.read()
 print(c)
 '''
+#-----image file
+f=open('image1.jpg','rb')
+data = f.read()
+f=open('image2.jpg','wb')
+f.write(data)
+f.close()
+
 
 #-CSV----(comma separated values)
 '''
@@ -85,20 +100,20 @@ ob.writerows([['Dora',9876543210,101, 90],['Smurf',98765456789,102, 80],['Chutki
 f.close()
 '''
 
+
+'''
 import csv
 
 f=open('exam.csv','a')
 ob=csv.writer(f)
 ob.writerow(['Dinku',9123443210,104, 95])
 
-
-
 #context manager
 with open('exam.csv','a') as f:
     ob=csv.writer(f)
     ob.writerow(['Bheema',9123478910,105, 75])
     
-    
+'''    
 
 
 
