@@ -166,6 +166,31 @@ TYPES
 
 
 #5.Dictionary{}
+* It is a collection of key & value pairs, enclosed between {}.
+* #Syntax= {K1:V1, K2:V2, K3:V3,.........,Kn:Vn}.
+* Dictionary is mutable.
+* Key must be unique & immutable.
+* Values can be anything.
+* Default value of dictionary is {}.
+* # Ex= {'a':'apple', 'b':'banana', 'c':'carrot'}
+* Dictionary doesnot support indexing but using keys we can access the value.
+
+#DICTIONARY LOOK UP METHOD.
+* The process of accessing value using keys.
+* Syntax:  Var(key)
+* Dictionary is mutable datatype.
+* We can add key value pair & modify the existing values using  Var(key)=value
+
+#FUNCTION TO REMOVE KEY-VALUE PAIRS.
+1.pop()
+* it will remove the value from the dictionary based on the mentioned key.
+* Syntax= dict.pop(key)
+*       / dict.pop(key,arg)
+* #If key is not present it returns arguments.
+
+2.popitem()
+* used to remove the last key value pair.
+* Syntax= dict.popitem()
 
 
 
