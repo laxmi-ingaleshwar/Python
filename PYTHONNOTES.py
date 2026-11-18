@@ -194,10 +194,39 @@ TYPES
 
 
 
+#SLICING
+* Slicing is a process of extracting multiple values from a collection in a sequential order.
+* syntax=  var[SI:EI:STEP]
+* slicing is completely depending on indexing.
+* It supports only the collection on which we can perform indexing.[string,list,tuple].
 
 
 
+#COPY OPERATION
+* process of copying the content from one variable to another variable.
+1.General / Reference copy.
+2.Shallow copy.
+3.Deep copy.
 
+
+#1.Reference copy.
+* Process of assigning one variable to the another &
+* both the variables point to the same object in memory.
+* If the values() are mutable datatype,
+* modification done on one variable will affect another variable also.
+* #syntax= destination_variable = source_variable
+
+
+#2.Shallow copy.
+* It creates new outer object but the Nested objects are still shared.
+* #syntax = import copy
+* #         destination_variable = copy.copy(source_variable)          
+
+
+#3.Deep copy.
+* It creates completely an independent copy including Nested mutable values.
+* #syntax=  import copy
+* #         destination_variable = copy.deep copy(source_variable)
 
 
 
