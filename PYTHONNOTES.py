@@ -229,14 +229,50 @@ TYPES
 * #         destination_variable = copy.deep copy(source_variable)
 
 
+#TYPE CASTING
+* Type casting is the process of converting one type of data into another type.
+*# syntax= destination_type(data)/
+#          data_type(data)
 
 
+#OPERATORS
+* Operators are the special symbols which are used to perform a specific task.
+*# TYPES OF OPERATORS
+* 1. Arithmetic Operator
+* 2. Relational Operator
+* 3. Logical Operator
+* 4. Bitwise Operator
+* 5. Assignment Operator
+* 6. Membership Operator
+* 7. Identify Operator
 
 
+# 1. Arithmetic Operators
+* These are used to perform basic mathematical operations.
+* 1.Addition(+)
+* 2.Subtraction(-)
+* 3.Multiplication(*)
+* 4.Division
+    i.true(/)
+    ii.floor(//)
+    iii.modulus(%)
+* 5.Exponent/power(**)
 
 
+# 2.Relational/ comparison Operator.
+* These are used to compare two values & the result will be always true.
+* 1.Relational equal to(==)
+* 2.Relational not equal to(!=)
+* 3.Relational greater than(>)
+* 4.Relational lesser than(<)
+* 5.Relational greater than equal to (<=)
+* 6.Relational lesser than equal to (<=)
 
-
+# 3.Logical Operators.
+* It is used to combine multiple conditions.
+* 1.Logical AND
+* 2.Logical OR
+* 3.Logical NOT
 
 
 
