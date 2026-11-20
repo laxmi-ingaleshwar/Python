@@ -1,9 +1,27 @@
 #---------Regular Expression
 
+'''
+[A-Z]-> UPPERCASE
+[a-z]-> Lowercase
+[0-9]-> Digit
+{n}-> Number of characters
+{m,n}-> Range
+
+
+\ -> Remove the special behaviouring special char.
++ -> 1 to n Number of character.
+* -> 0 to n Number of character.
+? -> 0 & 1 character.
+\d -> 1 digit
+\w -> 1 alphabetic, 1 digit, 1 underscore.
+\s -> 1 space
+\W -> 1 non-alphabetic.
+\S -> 1 non-space.
+'''
+
 data= '''employee mail 4455773445 id is pallavi@gmail.com
         9876543210 TYP2697 Yashwanth123@gmail.com 234567
         PENT456 ashwini.k@pqr.in  9988776655 12-09-2026 '''
-
 
 '''
 pattern = r'[6-9]\d{9}'
